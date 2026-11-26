@@ -142,7 +142,10 @@ on how accuracy is measured, and eventually a redacted evaluation package in Rel
 
 ## Contact
 
-**jov611@gmail.com** · https://sportai-hq.pages.dev
+**Allen Wei (魏巍)**
+Phone / WeChat: **+86 186 1678 4797**
+Email: **907882691@qq.com** (primary) · jov611@gmail.com
+Site: https://sportai-hq.pages.dev
 
 Please write from a company address and say which track you are asking about (usage or
 ownership), so the first reply is the right one.

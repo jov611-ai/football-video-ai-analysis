@@ -128,7 +128,10 @@
 
 ## 联系方式
 
-**jov611@gmail.com** · https://sportai-hq.pages.dev
+**魏巍（Allen Wei）**
+电话 / 微信：**186 1678 4797**
+邮箱：**907882691@qq.com**（主用）· jov611@gmail.com
+站点：https://sportai-hq.pages.dev
 
 请用公司邮箱联系，并说明你在问哪条轨道（使用权或所有权），这样第一封回复就是对的。
 
