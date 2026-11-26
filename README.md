@@ -8,6 +8,12 @@ reusable tactical assets.
 
 > Live product site: **https://sportai-hq.pages.dev**
 > Product brief (PDF): **[中文](https://sportai-hq.pages.dev/assets/files/faa-intro.pdf)** · **[English](https://sportai-hq.pages.dev/assets/files/faa-intro-en.pdf)**
+> 4½-minute walkthrough: **[watch the intro video](https://sportai-hq.pages.dev/assets/video/faa-intro-en-video.mp4)**
+
+[![FAA analysing a broadcast match: players, goalkeeper and referee tracked with identifiers, speed and team assignment](assets/poster.jpg)](https://sportai-hq.pages.dev/assets/video/faa-intro-en-video.mp4)
+
+*The frame above is a still from the walkthrough — a real league match analysed from a single
+broadcast feed, with per-player identifiers, speed readouts and team assignment overlaid.*
 
 ---
 

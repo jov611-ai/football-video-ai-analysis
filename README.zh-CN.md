@@ -7,6 +7,12 @@
 
 > 产品站点：**https://sportai-hq.pages.dev**
 > 产品介绍 PDF：**[中文](https://sportai-hq.pages.dev/assets/files/faa-intro.pdf)** · **[English](https://sportai-hq.pages.dev/assets/files/faa-intro-en.pdf)**
+> 产品演示视频（约 4 分半）：**[观看](https://sportai-hq.pages.dev/assets/video/faa-intro-video.mp4)**
+
+[![FAA 分析一场真实转播比赛：球员、门将与裁判被逐一带号，并叠加速度与队伍归属](assets/poster.jpg)](https://sportai-hq.pages.dev/assets/video/faa-intro-video.mp4)
+
+*上面这一帧取自演示视频——一场从单一转播画面分析出来的真实联赛，画面上是逐人编号、速度读数与
+队伍归属。*
 
 ---
 
