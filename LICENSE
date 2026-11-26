@@ -1,0 +1,42 @@
+Copyright (c) 2026. All rights reserved.
+
+This repository is a capability showcase for FAA — Football AI Analyzer. It is published
+for the purpose of technical and commercial evaluation.
+
+PERMITTED WITHOUT PRIOR WRITTEN CONSENT
+  1. Reading, viewing and downloading this repository's contents.
+  2. Citing or quoting it, with attribution and a link to the original.
+  3. Internal evaluation, including sharing it inside your own organisation with
+     colleagues who are assessing it.
+
+NOT PERMITTED
+  1. Any use of the name "FAA — Football AI Analyzer", its logo, screenshots or report
+     samples in your own products, marketing, or client-facing material.
+  2. Redistribution, mirroring, republishing in whole or in part, including re-hosting
+     on another platform or inside a dataset.
+  3. Any attempt to reverse-engineer, reconstruct, or derive an implementation from the
+     materials published here.
+  4. Commercial use of any kind without a signed agreement.
+
+NO IMPLEMENTATION IS LICENSED
+  No source code, model weights, datasets, or inference pipeline are present in this
+  repository, and none are licensed by this file. Access to the implementation is granted
+  separately, under NDA, through a private repository with time-limited read access.
+
+RIGHTS IN THE SYSTEM ARE NOT TRANSFERRED BY THIS FILE
+  Ownership of the system, the software copyright and the trademark are transferred only
+  by a separate written assignment or exclusive licence agreement. Nothing in this
+  repository, and no act of publication, constitutes an offer, a licence, or a transfer
+  of those rights.
+
+THE SOFTWARE COPYRIGHT IS THE SUBJECT OF A PENDING REGISTRATION
+  A transfer of registered software copyright requires contract registration with the
+  China Copyright Protection Center and is handled as part of any closing.
+
+NO WARRANTY
+  This material is provided "as is", without warranty of any kind. Figures shown are
+  output of specific demonstration runs and are not a guarantee of performance on other
+  footage. Where a value in a sample report is a modelled estimate rather than a
+  measurement, it is labelled as such in that report.
+
+Contact for licensing and acquisition: jov611@gmail.com

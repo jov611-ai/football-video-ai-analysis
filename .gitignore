@@ -1,0 +1,96 @@
+# ============================================================
+#  faa-analyzer — 展示仓库的提交护栏
+#  这个仓库只允许出现：文档、截图、脱敏样本。
+#  下面这些规则是硬保险：任何实现层面的东西都不许进版本库。
+# ============================================================
+
+# --- 源码（一律不进） ---
+*.py
+*.pyc
+*.pyo
+*.ipynb
+*.js
+*.mjs
+*.ts
+*.tsx
+*.jsx
+*.vue
+*.sh
+*.bat
+*.ps1
+Dockerfile
+docker-compose*.yml
+Makefile
+
+# --- 模型与权重 ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.trt
+*.tflite
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.joblib
+weights/
+models/
+checkpoints/
+
+# --- 数据与标注 ---
+datasets/
+*.csv
+*.parquet
+*.jsonl
+*.npy
+*.npz
+*.db
+*.sqlite*
+pitch_annotation*/
+annotations/
+
+# --- 内部资料与工作卷宗 ---
+docs/内部/
+docs/internal/
+qa/
+evidence/
+memory/
+.trash_pending/
+backup*/
+*_source_v*.py
+
+# --- 部署与凭据 ---
+deploy.sh
+site.zip
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+.cloudflare/
+
+# --- 视频与大文件（GitHub 单文件 100M 硬限；视频走站点链接） ---
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.zip
+*.7z
+*.tar
+*.gz
+
+# --- 系统杂物 ---
+.DS_Store
+Thumbs.db
+__pycache__/
+.pytest_cache/
+node_modules/
+.idea/
+.vscode/
+*.log
