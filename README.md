@@ -53,14 +53,21 @@ discussed per deal.
 
 | | |
 |---|---|
-| ![Analysis views](assets/screenshots/01-analysis-views.jpg) | ![Tactical overlays](assets/screenshots/02-tactical-overlays.jpg) |
-| **9 analysis views from one feed** | **12 overlay views on a normalised pitch** |
+| ![One feed, annotated](assets/screenshots/01-analysis-views.jpg) | ![Tactical overlays](assets/screenshots/02-tactical-overlays.jpg) |
+| **One feed in: players, keeper and referee tracked** | **12 overlay views on a normalised pitch** |
 | ![3D sandbox](assets/screenshots/03-3d-tactical-sandbox.jpg) | ![Tactics library](assets/screenshots/04-tactics-library.jpg) |
 | **3D tactical sandbox, 0.5–4× scrub** | **24-entry named tactics library** |
 | ![Named players](assets/screenshots/05-named-players.jpg) | ![Event timeline](assets/screenshots/06-event-timeline.jpg) |
 | **Named player output** | **Event timeline, frame-addressable** |
 | ![Report](assets/screenshots/07-bilingual-report.jpg) | ![League album](assets/screenshots/08-league-album.jpg) |
 | **Bilingual report with frame back-links** | **League-level album across 13 teams** |
+| ![Match digest](assets/screenshots/09-match-digest.jpg) | ![Duel segments](assets/screenshots/10-duel-segments.jpg) |
+| **Match digest: the match on one screen** | **Duel and transition segments** |
+| ![Heat maps](assets/screenshots/11-overlay-heatmap.jpg) | ![Simulation](assets/screenshots/12-matchup-simulation.jpg) |
+| **Heat maps and passing lanes** | **Head-to-head simulation** |
+
+Screenshots come from real league matches analysed end to end. Where an interface panel
+showed internal configuration, that panel is cropped out rather than shown.
 
 ---
 

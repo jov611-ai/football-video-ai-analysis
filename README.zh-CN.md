@@ -48,14 +48,20 @@
 
 | | |
 |---|---|
-| ![分析视图](assets/screenshots/01-analysis-views.jpg) | ![战术叠加](assets/screenshots/02-tactical-overlays.jpg) |
-| **单画面出 9 个分析视图** | **统一球场坐标上的 12 种叠加视图** |
+| ![单画面标注](assets/screenshots/01-analysis-views.jpg) | ![战术叠加](assets/screenshots/02-tactical-overlays.jpg) |
+| **一段画面进来：球员、门将、裁判逐一追踪** | **统一球场坐标上的 12 种叠加视图** |
 | ![3D 沙盘](assets/screenshots/03-3d-tactical-sandbox.jpg) | ![战术库](assets/screenshots/04-tactics-library.jpg) |
 | **3D 战术沙盘，0.5–4 倍速** | **24 条具名战术库** |
 | ![具名球员](assets/screenshots/05-named-players.jpg) | ![事件时间轴](assets/screenshots/06-event-timeline.jpg) |
 | **具名球员输出** | **事件时间轴，可定位到帧** |
 | ![报告](assets/screenshots/07-bilingual-report.jpg) | ![联赛专辑](assets/screenshots/08-league-album.jpg) |
 | **中英双语报告，结论可回跳帧** | **覆盖 13 支球队的联赛专辑** |
+| ![比赛摘要](assets/screenshots/09-match-digest.jpg) | ![对抗片段](assets/screenshots/10-duel-segments.jpg) |
+| **比赛摘要：一场比赛在一屏里** | **对抗与转换片段** |
+| ![热区与线路](assets/screenshots/11-overlay-heatmap.jpg) | ![对抗模拟](assets/screenshots/12-matchup-simulation.jpg) |
+| **热区与进攻线路** | **双方对抗模拟推演** |
+
+截图取自真实联赛的完整分析过程。若界面中出现内部配置面板，该面板已被裁掉，不予展示。
 
 ---
 
