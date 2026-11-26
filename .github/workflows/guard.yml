@@ -1,0 +1,56 @@
+name: repo-guard
+
+# 这个仓库是公开的能力展示仓。它一旦公开，任何被提交的内容都会留在 fork、
+# 归档站点和搜索引擎缓存里，删不掉。
+# 因此把"不许出现的东西"做成自动检查：宁可让推送失败，也不让代码意外进库。
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  forbidden-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Block source code, weights and data
+        run: |
+          set -e
+          bad=$(find . -type f \( \
+              -name '*.py' -o -name '*.pyc' -o -name '*.ipynb' \
+              -o -name '*.js' -o -name '*.ts' -o -name '*.mjs' \
+              -o -name '*.sh' -o -name 'Dockerfile' \
+              -o -name '*.pt' -o -name '*.pth' -o -name '*.onnx' -o -name '*.engine' \
+              -o -name '*.safetensors' -o -name '*.pkl' \
+              -o -name '*.csv' -o -name '*.db' -o -name '*.sqlite*' \
+              -o -name '*.mp4' -o -name '*.mov' -o -name '*.zip' \
+              -o -name '.env' -o -name '.env.*' -o -name '*.pem' -o -name '*.key' \
+            \) -not -path './.git/*' | head -40)
+          if [ -n "$bad" ]; then
+            echo "::error::禁止的文件进入了仓库："
+            echo "$bad"
+            exit 1
+          fi
+          echo "OK：无源码、无权重、无数据、无凭据。"
+
+      - name: Block method-revealing keywords
+        run: |
+          set -e
+          # 方法/模型/内部标识一旦出现在公开仓库，等于把方案送给竞争者
+          if grep -rInE 'Soccana|keypoint|homography|单应矩阵|H矩阵|YOLO|ReID|模型结构|训练数据来源' . \
+               --exclude-dir=.git --exclude='*.jpg' --exclude='*.png' 2>/dev/null | grep -v 'guard.yml'; then
+            echo "::error::检测到疑似方法细节，请改写后再推送。"
+            exit 1
+          fi
+          echo "OK：未检出方法细节。"
+
+      - name: Repo size sanity
+        run: |
+          size=$(du -sm . | cut -f1)
+          echo "repo size: ${size} MB"
+          if [ "$size" -gt 500 ]; then
+            echo "::error::仓库超过 500MB，大文件请走站点链接或 Release 附件。"
+            exit 1
+          fi
